@@ -2,6 +2,9 @@ body {
   font-family: Arial, sans-serif;
   overflow-x: hidden;
 }
+.container{
+  overflow: hidden;
+}
 
 .nav {
   display: flex;
@@ -10,6 +13,12 @@ body {
   align-items: center;
   padding: 1rem;
   overflow: hidden;
+}
+.home-link {
+  color: red;
+}
+.menu-link.home-link {
+  color: red;
 }
 
 .menu {
@@ -49,6 +58,9 @@ body {
   border-radius: 0.25rem;
   border: none;
   cursor: pointer;
+}
+.download-btn:hover{
+  background-color: #0ef0ce; /* custom red */
 }
 
 .mobile-menu {
