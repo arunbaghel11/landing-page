@@ -1,0 +1,85 @@
+/* Features Section */
+.features {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 2.5rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+  
+  @media (min-width: 1024px) {
+    .features {
+      flex-direction: row;
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+  
+  .features-image-container {
+    display: none;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 2.5rem;
+  }
+  
+  @media (min-width: 1024px) {
+    .features-image-container {
+      display: flex;
+      width: 50%;
+      margin-bottom: 0;
+    }
+  }
+  
+  .features-image {
+    width: 100%;
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+  
+  .features-text {
+    width: 100%;
+    text-align: center;
+  }
+  
+  @media (min-width: 1024px) {
+    .features-text {
+      width: 50%;
+      text-align: left;
+    }
+  }
+  
+  .features-title {
+    color: #e3342f; /* Custom Red */
+  }
+  
+  .features-heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-top: 1rem;
+  }
+  
+  .features-list {
+    margin-top: 2.5rem;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .features-item {
+    margin-bottom: 2rem;
+  }
+  
+  .features-item-title {
+    font-weight: bold;
+  }
+  
+  .features-item-description {
+    color: #737373; /* Custom Gray */
+  }
+  
+  .features-item:last-child {
+    margin-bottom: 0;
+  }
+  
